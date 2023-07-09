@@ -1,0 +1,78 @@
+name: new_crm_app
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.5
+  font_awesome_flutter: ^10.4.0
+  bouncing_widget: ^2.0.0
+  fluttercontactpicker: ^4.7.0
+  country_code_picker: ^3.0.0
+  url_launcher: ^6.1.11
+  google_sign_in: ^6.1.0
+  get: ^4.6.1
+  uuid: ^3.0.6
+  image_picker: ^0.8.7+5
+  google_mlkit_text_recognition: ^0.6.0
+  edge_detection: 1.0.9
+  firebase_storage: ^11.2.1
+  flutter_spinkit: ^5.2.0
+  cached_network_image: ^3.2.3
+  firebase_core: ^2.13.0
+  cloud_firestore: ^4.7.1
+  firebase_auth: ^4.6.1
+  flutter_sound: ^9.2.13
+  permission_handler: ^10.2.0
+  audioplayers: ^1.1.1
+  assets_audio_player: 3.0.4
+  path: ^1.8.2
+  flutter_sms: ^2.3.3
+  flutter_contacts: ^1.1.6
+  assets_audio_player_web: ^3.0.6
+  audioplayers_web: ^2.0.1
+  cloud_firestore_web: ^3.5.1
+  firebase_auth_web: ^5.5.1
+  firebase_core_web: ^2.5.0
+  firebase_storage_web: ^3.6.1
+  image_picker_for_web: ^2.1.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^2.0.1
+
+flutter_icons:
+  image_path: images/cat.png
+  android: true
+  ios: true
+
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/cat.png
+    - images/google_logo.png
+    - images/wallet.png
+
+  fonts:
+    - family: Brandon
+      fonts:
+        - asset: fonts/BrandonText-Bold.ttf
+    - family: BrandonReg
+      fonts:
+        - asset: fonts/BrandonText-Regular.otf
+    - family: BrandonMed
+      fonts:
+        - asset: fonts/BrandonText-Medium.otf
